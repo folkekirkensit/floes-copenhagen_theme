@@ -14,7 +14,8 @@
     <nav class="user-nav" id="user-nav" aria-label="{{t 'user_navigation'}}">
       <ul class="user-nav-list">
         <li>{{link 'community'}}</li>
-        <li>{{link 'new_request' class='submit-a-request'}}</li>
+        <!--<li>{{link 'new_request' class='submit-a-request'}}</li>-->
+        <li><a class="link" href="/hc/da/articles/25407780538898">Kontakt support</a></li>
         {{#unless signed_in}}
           <li>
             {{#link "sign_in" class="sign-in"}}
@@ -83,7 +84,8 @@
           <li class="nav-divider"></li>
         {{/if}}
         <li class="item">{{link 'community'}}</li>
-        <li class="item">{{link 'new_request' class='submit-a-request'}}</li>
+        <!--<li class="item">{{link 'new_request' class='submit-a-request'}}</li>-->
+        <li><a class="link" href="/hc/da/articles/25407780538898">Kontakt support</a></li>
         <li class="nav-divider"></li>
         {{#if signed_in}}
           <li class="item">
